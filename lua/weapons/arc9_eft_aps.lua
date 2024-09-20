@@ -878,6 +878,7 @@ SWEP.Attachments = {
         Ang = Angle(0, -90, 0),
         RequireElements = {"eft_apb"},
         Icon_Offset = Vector(0, 0, 0),
+        Category = "eft_apb_silencer",
     },
     {
         PrintName = "Stock",
