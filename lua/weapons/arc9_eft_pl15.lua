@@ -202,9 +202,9 @@ SWEP.VisualRecoilDoingFunc = function(up, side, roll, punch, recamount, self)
     up = Lerp(fullauto, EFT_VisualRecoilUp_BURST_SEMI, up)
     side = Lerp(fullauto, EFT_VisualRecoilSide_BURST_SEMI, side)
 
-    if recamount < 2 then
-        if self:GetSightAmount() < 0.2 then up = 3 end -- only for visual when hipfiring
-    end
+    -- if recamount < 2 then
+    --     if self:GetSightAmount() < 0.2 then up = 3 end -- only for visual when hipfiring
+    -- end
 
     return up, side, roll, punch
 end
