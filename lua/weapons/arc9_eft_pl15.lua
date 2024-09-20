@@ -150,8 +150,8 @@ SWEP.RecoilAutoControl = 10 -- autocompenstaion, could be cool if set to high bu
 -- visual recoil   aka visrec
 SWEP.VisualRecoil = 1 -- general multiplier for it
 
-local EFT_VisualRecoilUp_BURST_SEMI   = 1.5   -- up/down tilt when semi/bursts
-SWEP.VisualRecoilUp                   = 1.5   --   when fullautoing
+local EFT_VisualRecoilUp_BURST_SEMI   = 1.2   -- up/down tilt when semi/bursts
+SWEP.VisualRecoilUp                   = 1.2   --   when fullautoing
 local EFT_VisualRecoilSide_BURST_SEMI = 0.001 -- left/right tilt when semi/burst
 SWEP.VisualRecoilSide                 = 0.005   --   when fullautoing
 SWEP.VisualRecoilRoll = 4 -- roll tilt, a visual thing
@@ -159,7 +159,7 @@ SWEP.VisualRecoilRoll = 4 -- roll tilt, a visual thing
 SWEP.VisualRecoilPunch = 2 -- How far back visrec moves the gun
 SWEP.VisualRecoilPunchSights = 15 -- same but in sights only
 
-SWEP.VisualRecoilDampingConst = 600  -- spring settings, this is speed of visrec
+SWEP.VisualRecoilDampingConst = 800  -- spring settings, this is speed of visrec
 SWEP.VisualRecoilSpringPunchDamping = 10 -- the less this is the more wobbly gun moves
 SWEP.VisualRecoilSpringMagnitude = 2 -- some third element of spring, high values make gun shake asf on low fps
 

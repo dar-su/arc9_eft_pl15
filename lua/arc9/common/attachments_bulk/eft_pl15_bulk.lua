@@ -217,7 +217,7 @@ ATT.PrintName = "PL-15 9x19 sound suppressor"
 ATT.CompactName = "PL-15"
 ATT.Icon = Material("entities/eft_pl15_attachments/sil.png", "mips smooth")
 ATT.Description = [[A standard-issue sound suppressor for the PL-15 pistol.]]
-ATT.SortOrder = 0
+ATT.SortOrder = -1
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -16
