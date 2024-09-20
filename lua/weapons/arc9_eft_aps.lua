@@ -859,6 +859,7 @@ SWEP.Attachments = {
         Pos = Vector(0, 18, -1),
         Ang = Angle(0, -90, 0),
         Icon_Offset = Vector(0, 0, 0),
+        Category = "eft_aps_pg",
         Installed = "eft_aps_pg_std"
     },
     {
