@@ -91,6 +91,7 @@ ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Category = {"eft_aps_mag"}
+ATT.ActivateElements = {"magdef"}
 
 ATT.HasMag = true
 ATT.SuppressEmptySuffix = false 

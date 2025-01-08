@@ -237,7 +237,7 @@ SWEP.Hook_TranslateAnimation = function(swep, anim)
     -- local rand = 0
     local nomag = false
 
-    if elements["eft_mag_pl15_std"] then ending = 0 
+    if elements["magdef"] then ending = 0 
     else nomag = true end
 
     local empty = swep:Clip1() == 0 and !nomag

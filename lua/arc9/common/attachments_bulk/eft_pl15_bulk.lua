@@ -121,7 +121,7 @@ ATT.ChamberSize = 1
 ATT.ClipSize = 16
 ATT.DropMagazineAmount = 1
 ATT.SuppressEmptySuffix = false 
-ATT.ActivateElements = {"hasmag"}
+ATT.ActivateElements = {"magdef"}
 
 ATT.Category = {"eft_pl15_mag"}
 

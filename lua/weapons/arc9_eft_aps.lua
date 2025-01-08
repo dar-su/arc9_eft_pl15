@@ -267,7 +267,7 @@ SWEP.Hook_TranslateAnimation = function(swep, anim)
     -- local rand = 0
     local nomag = false
 
-    if elements["eft_aps_mag_20"] then ending = 0 
+    if elements["magdef"] then ending = 0 
     -- elseif elements["eft_pm_mag_84"] then ending = 1
     else nomag = true end
 
