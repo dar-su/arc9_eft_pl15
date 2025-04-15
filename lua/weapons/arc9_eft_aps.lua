@@ -56,10 +56,11 @@ SWEP.CustomizeRotateAnchor = Vector(21.6, -4.28, -5.23)
 
 SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_REVOLVER
 
+SWEP.HoldTypeHolstered = "normal"
+
 if GetConVar("arc9_eft_nontpik_mode"):GetBool() then -- pistols
     SWEP.HoldType = "revolver"
     SWEP.HoldTypeSprint = "normal"
-    SWEP.HoldTypeHolstered = "normal"
     SWEP.HoldTypeSights = "revolver"
     SWEP.HoldTypeCustomize = "passive"
 end
