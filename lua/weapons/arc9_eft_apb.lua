@@ -10,12 +10,9 @@ SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_pist")
 
 SWEP.Slot = 1
 
-ARC9:AddPhrase("eft_weapon_apb", "Stechkin APB", "en")
-ARC9:AddPhrase("eft_weapon_apb", "Стечкин АПБ", "ru")
-ARC9:AddPhrase("eft_weapon_apb", "Stewchkin APB", "uwu")
 SWEP.PrintName = ARC9:GetPhrase("eft_weapon_apb")
 
-SWEP.Description = [[The APB pistol (Avtomatícheskiy Pistolét Besshúmnyy - "Silenced Automatic Pistol", GRAU Index - 6P13) is a silenced version of the Stechkin machine pistol, widely used by different Russian special forces.]]
+SWEP.Description = "eft_weapon_apb_desc"
 
 SWEP.DefaultElements = {"eft_apb"} 
 

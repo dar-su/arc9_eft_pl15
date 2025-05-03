@@ -5,21 +5,18 @@ SWEP.Spawnable = true
 
 ------------------------- |||           Trivia            ||| -------------------------
 
-ARC9:AddPhrase("eft_weapon_aps", "Stechkin APS", "en")
-ARC9:AddPhrase("eft_weapon_aps", "Стечкин АПС", "ru")
-ARC9:AddPhrase("eft_weapon_aps", "Stewchkin APS", "uwu")
 SWEP.PrintName = ARC9:GetPhrase("eft_weapon_aps")
-SWEP.Description = [[The APS (Avtomatícheskiy Pistolét Stéchkina - "Stechkin Automatic Pistol", GAU Index - 56-A-126) is a Soviet machine pistol chambered in 9x18 PM, developed in the late 1940 by Igor Stechkin. APS is intended for arming officers who are directly involved in combat operations, as well as for soldiers and sergeants of some special units.]]
+SWEP.Description = "eft_weapon_aps_desc"
 
-SWEP.Class = ARC9:GetPhrase("eft_class_weapon_megapist")
+SWEP.Class = "eft_class_weapon_megapist"
 SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_pist")
 
 SWEP.Trivia = {
-    [ARC9:GetPhrase("eft_trivia_manuf") .. "1"] = "Vytatsky Polyany Machine-Building Plant",
-    [ARC9:GetPhrase("eft_trivia_cal") .. "2"] = "9x18mm Makarov",
-    [ARC9:GetPhrase("eft_trivia_act") .. "3"]= ARC9:GetPhrase("eft_trivia_act_blow"),
-    [ARC9:GetPhrase("eft_trivia_country") .. "4"] = ARC9:GetPhrase("eft_trivia_country_ussr"),
-    [ARC9:GetPhrase("eft_trivia_year") .. "5"] = "1940"
+    ["eft_trivia_manuf1"] = "eft_trivia_manuf_vytatsky",
+    ["eft_trivia_cal2"] = "eft_trivia_calibr_9x18",
+    ["eft_trivia_act3"]= "eft_trivia_act_blow",
+    ["eft_trivia_country4"] = "eft_trivia_country_ussr",
+    ["eft_trivia_year5"] = "1940"
 }
 
 SWEP.StandardPresets = false 
